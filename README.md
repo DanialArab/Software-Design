@@ -164,4 +164,20 @@ development tasks.
   - Cognitive load
   - Unknown unknowns
 
--  Change amplification 
+-  Change amplification
+
+The first symptom of complexity is that a seemingly
+simple change requires code modifications in many different places. For
+example, consider a Web site containing several pages, each of which displays a
+banner with a background color. In many early Web sites, the color was specified
+explicitly on each page, as shown in Figure 2.1(a). In order to change the
+background for such a Web site, a developer might have to modify every existing
+page by hand; this would be nearly impossible for a large site with thousands of
+pages. Fortunately, modern Web sites use an approach like that in Figure 2.1(b),
+where the banner color is specified once in a central place, and all of the
+individual pages reference that shared value. With this approach, the banner
+color of the entire Web site can be changed with a single modification. One of
+the goals of good design is to reduce the amount of code that is affected by each
+design decision, so design changes don’t require very many code modifications.
+
+![]()
