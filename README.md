@@ -160,4 +160,8 @@ work with easily, but to create code that others can also work with easily.
 paragraphs below. Each of these manifestations makes it harder to carry out
 development tasks.
 
-- 
+- Change amplification:
+- Cognitive load
+- Unknown unknowns
+
+-  Change amplification 
