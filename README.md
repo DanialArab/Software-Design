@@ -116,4 +116,6 @@ to methods can also be applied to functions in a language without object-oriente
 features, such as C. The design ideas also apply to modules other than classes,
 such as subsystems or network services.
 
+## Chapter 2 The Nature of Complexity
+
 - 
