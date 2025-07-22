@@ -13,4 +13,6 @@ However, there is quite a bit of scientific evidence that outstanding performanc
 in many fields is related more to high-quality practice than innate ability (see, for
 example, Talent is Overrated by Geoff Colvin).
 
+- related class taught by the author: CS 190 at Stanford University
+
 - 
