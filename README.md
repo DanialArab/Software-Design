@@ -97,3 +97,11 @@ software complexity: what does “complexity” mean, why does it matter, and ho
 can you recognize when a program has unnecessary complexity? The book’s
 second, and more challenging, goal is to present techniques you can use during
 the software development process to minimize complexity
+
+- The best way to use this book is in conjunction with code reviews. When you
+read other people’s code, think about whether it conforms to the concepts
+discussed here and how that relates to the complexity of the code. It’s easier to
+see design problems in someone else’s code than your own. You can use the red
+flags described here to identify problems and suggest improvements. Reviewing
+code will also expose you to new design approaches and programming
+techniques.
