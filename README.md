@@ -91,3 +91,9 @@ reducing complexity is the most important element of software design, then
 software developers should always be thinking about complexity. This book is
 about how to use complexity to guide the design of software throughout its
 lifetime.
+
+- This book has two overall goals. The first is to describe the nature of
+software complexity: what does “complexity” mean, why does it matter, and how
+can you recognize when a program has unnecessary complexity? The book’s
+second, and more challenging, goal is to present techniques you can use during
+the software development process to minimize complexity
