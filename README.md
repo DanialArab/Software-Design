@@ -85,3 +85,9 @@ one; experience inevitably shows better ways to do things. As a software
 developer, you should always be on the lookout for opportunities to improve the
 design of the system you are working on, and you should plan on spending some
 fraction of your time on design improvements.
+
+- If software developers should always be thinking about design issues, and
+reducing complexity is the most important element of software design, then
+software developers should always be thinking about complexity. This book is
+about how to use complexity to guide the design of software throughout its
+lifetime.
