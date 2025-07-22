@@ -118,4 +118,28 @@ such as subsystems or network services.
 
 ## Chapter 2 The Nature of Complexity
 
+- This book is about how to design software systems to minimize their complexity.
+The first step is to understand the enemy. Exactly what is “complexity”? How
+can you tell if a system is unnecessarily complex? What causes systems to
+become complex?
+
+- The ability to recognize complexity is a crucial design skill. It allows you to
+identify problems before you invest a lot of effort in them, and it allows you to
+make good choices among alternatives. It is easier to tell whether a design is
+simple than it is to create a simple design, but once you can recognize that a
+system is too complicated, you can use that ability to guide your design
+philosophy towards simplicity. If a design appears complicated, try a different
+approach and see if that is simpler. Over time, you will notice that certain
+techniques tend to result in simpler designs, while others correlate with
+complexity. This will allow you to produce simpler designs more quickly.
+
+- Complexity is anything related to the structure of a software system that
+makes it hard to understand and modify the system. Complexity can take
+many forms. For example, it might be hard to understand how a piece of code
+works; it might take a lot of effort to implement a small improvement, or it might
+not be clear which parts of the system must be modified to make the
+improvement; it might be difficult to fix one bug without introducing another. If
+a software system is hard to understand and modify, then it is complicated; if it is
+easy to understand and modify, then it is simple.
+
 - 
