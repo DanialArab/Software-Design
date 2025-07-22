@@ -26,4 +26,8 @@ what works and what doesn’t).
 
 ## CHAPTER 1: Introduction (It’s All About Complexity)
 
+- All programming requires
+is a creative mind and the ability to organize your thoughts. If you can visualize a
+system, you can probably implement it in a computer program.
+
 - 
