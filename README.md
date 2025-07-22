@@ -56,7 +56,7 @@ designed at once, during the design phase. The design is frozen at the end of th
 phase, and the role of the subsequent phases is to flesh out and implement that
 design.
 
-Unfortunately, the waterfall model rarely works well for software. Software
+- Unfortunately, the waterfall model rarely works well for software. Software
 systems are intrinsically more complex than physical systems; it isn’t possible to
 visualize the design for a large software system well enough to understand all of
 its implications before building anything. As a result, the initial design will have
@@ -64,6 +64,8 @@ many problems. The problems do not become apparent until implementation is
 well underway. However, the waterfall model is not structured to accommodate
 major design changes at this point (for example, the designers may have moved
 on to other projects). Thus, developers try to patch around the problems without
-changing the overall design. This results in an explosion of complexity.
+changing the overall design. This results in an **explosion of complexity.**
+
+- 
 
 - 
