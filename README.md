@@ -8,4 +8,9 @@ have not been able to identify a single class in any university where problem
 decomposition is a central topic. We teach for loops and object-oriented
 programming, but not software design.
 
+- Many people assume that software design skill is an innate talent that cannot be taught.
+However, there is quite a bit of scientific evidence that outstanding performance
+in many fields is related more to high-quality practice than innate ability (see, for
+example, Talent is Overrated by Geoff Colvin).
+
 - 
