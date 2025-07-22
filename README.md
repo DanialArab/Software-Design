@@ -192,4 +192,13 @@ freeing it), it will reduce the cognitive load. Cognitive load arises in many wa
 such as **APIs with many methods, global variables, inconsistencies, and
 dependencies between modules.**
 
+System designers sometimes assume that complexity can be measured by
+lines of code. They assume that if one implementation is shorter than another,
+then it must be simpler; if it only takes a few lines of code to make a change, then
+the change must be easy. However, this view ignores the costs associated with
+cognitive load. I have seen frameworks that allowed applications to be written
+with only a few lines of code, but it was extremely difficult to figure out what
+those lines were. **Sometimes an approach that requires more lines of code is
+actually simpler, because it reduces cognitive load.**
+
 - 
