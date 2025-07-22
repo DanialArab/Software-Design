@@ -110,7 +110,7 @@ techniques.
 flags:** signs that a piece of code is probably more complicated than it needs to be.
 
 - Almost all of the examples in this book are in Java or C++, and much of the
-discussion is in terms of designing classes in an object-oriented language.
+discussion is in terms of **designing classes in an object-oriented language.**
 However, the ideas apply in other domains as well. Almost all of the ideas related
 to methods can also be applied to functions in a language without object-oriented
 features, such as C. The design ideas also apply to modules other than classes,
