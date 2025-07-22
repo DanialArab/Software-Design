@@ -30,4 +30,16 @@ what works and what doesn’t).
 is a creative mind and the ability to organize your thoughts. If you can visualize a
 system, you can probably implement it in a computer program.
 
+- There are two general approaches to fighting complexity, both of which will
+be discussed in this book. The first approach is to **eliminate complexity by
+making code simpler and more obvious.** For example, complexity can be reduced
+by eliminating special cases or using identifiers in a consistent fashion.
+The second approach to complexity is to **encapsulate it, so that programmers
+can work on a system without being exposed to all of its complexity at once**. This
+approach is called **modular design**. In modular design, a **software system is
+divided up into modules, such as classes in an object-oriented language**. The
+modules are designed to be **relatively independent of each other**, so that a
+programmer can work on one module without having to understand the details of
+other modules.
+
 - 
