@@ -142,4 +142,22 @@ improvement; it might be difficult to fix one bug without introducing another. I
 a software system is hard to understand and modify, then it is complicated; if it is
 easy to understand and modify, then it is simple.
 
+- You can also think of complexity in terms of cost and benefit. In a complex
+system, it takes a lot of work to implement even small improvements. In a simple
+system, larger improvements can be implemented with less effort.
+
+- Complexity is more apparent to readers than writers. If you write a piece of
+code and it seems simple to you, but other people think it is complex, then it is
+complex. When you find yourself in situations like this, it’s worth probing the
+other developers to find out why the code seems complex to them; there are
+probably some interesting lessons to learn from the disconnect between your
+opinion and theirs. Your job as a developer is not just to create code that you can
+work with easily, but to create code that others can also work with easily.
+
+- **Symptoms of complexity**
+
+  Complexity manifests itself in three general ways, which are described in the
+paragraphs below. Each of these manifestations makes it harder to carry out
+development tasks.
+
 - 
