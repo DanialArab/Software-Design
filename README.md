@@ -77,4 +77,11 @@ in this way, problems with the initial design can be fixed while the system is s
 small; later features benefit from experience gained during the implementation of
 earlier features, so they have fewer problems.
 
-- 
+- Incremental development means that software design is never done. Design
+happens continuously over the life of a system: developers should always be
+thinking about design issues. Incremental development also means continuous
+redesign. The initial design for a system or component is almost never the best
+one; experience inevitably shows better ways to do things. As a software
+developer, you should always be on the lookout for opportunities to improve the
+design of the system you are working on, and you should plan on spending some
+fraction of your time on design improvements.
