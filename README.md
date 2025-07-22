@@ -42,4 +42,28 @@ modules are designed to be **relatively independent of each other**, so that a
 programmer can work on one module without having to understand the details of
 other modules.
 
+- Because software is so malleable (Easily influenced or changed), software design is a continuous process
+that spans the entire lifecycle of a software system; this makes software design
+different from the design of physical systems such as buildings, ships, or bridges.
+However, software design has not always been viewed this way. For much of the
+history of programming, design was concentrated at the beginning of a project,
+as it is in other engineering disciplines. The extreme of this approach is called
+the **waterfall model**, in which a project is divided into discrete phases such as
+requirements definition, design, coding, testing, and maintenance. In the
+waterfall model, each phase completes before the next phase starts; in many
+cases different people are responsible for each phase. The entire system is
+designed at once, during the design phase. The design is frozen at the end of this
+phase, and the role of the subsequent phases is to flesh out and implement that
+design.
+
+Unfortunately, the waterfall model rarely works well for software. Software
+systems are intrinsically more complex than physical systems; it isn’t possible to
+visualize the design for a large software system well enough to understand all of
+its implications before building anything. As a result, the initial design will have
+many problems. The problems do not become apparent until implementation is
+well underway. However, the waterfall model is not structured to accommodate
+major design changes at this point (for example, the designers may have moved
+on to other projects). Thus, developers try to patch around the problems without
+changing the overall design. This results in an explosion of complexity.
+
 - 
