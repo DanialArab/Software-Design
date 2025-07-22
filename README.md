@@ -105,3 +105,8 @@ see design problems in someone else’s code than your own. You can use the red
 flags described here to identify problems and suggest improvements. Reviewing
 code will also expose you to new design approaches and programming
 techniques.
+
+- One of the best ways to improve your design skills is to **learn to recognize red
+flags:** signs that a piece of code is probably more complicated than it needs to be.
+
+- 
