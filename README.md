@@ -15,4 +15,12 @@ example, Talent is Overrated by Geoff Colvin).
 
 - related class taught by the author: CS 190 at Stanford University
 
+- I recommend that you take the suggestions in this book with a grain of salt.
+The overall goal is to reduce complexity; this is more important than any
+particular principle or idea you read here. If you try an idea from this book and
+find that it doesn’t actually reduce complexity, then don’t feel obligated to keep
+using it (but, do let me know about your experience; I’d like to get feedback on
+what works and what doesn’t).
+
+
 - 
