@@ -164,9 +164,7 @@ development tasks.
   - Cognitive load
   - Unknown unknowns
 
--  Change amplification
-
-The first symptom of complexity is that a seemingly
+-  **Change amplification**: The first symptom of complexity is that a seemingly
 simple change requires code modifications in many different places. For
 example, consider a Web site containing several pages, each of which displays a
 banner with a background color. In many early Web sites, the color was specified
@@ -180,4 +178,18 @@ color of the entire Web site can be changed with a single modification. One of
 the goals of good design is to reduce the amount of code that is affected by each
 design decision, so design changes don’t require very many code modifications.
 
-![]()
+- **Cognitive load**: The second symptom of complexity is cognitive load, which
+refers to how much a developer needs to know in order to complete a task. A
+higher cognitive load means that developers have to spend more time learning
+the required information, and there is a greater risk of bugs because they have
+missed something important. For example, suppose a function in C allocates
+memory, returns a pointer to that memory, and assumes that the caller will free
+the memory. This adds to the cognitive load of developers using the function; if a
+developer fails to free the memory, there will be a memory leak. If the system
+can be restructured so that the caller doesn’t need to worry about freeing the
+memory (the same module that allocates the memory also takes responsibility for
+freeing it), it will reduce the cognitive load. Cognitive load arises in many ways,
+such as **APIs with many methods, global variables, inconsistencies, and
+dependencies between modules.**
+
+- 
