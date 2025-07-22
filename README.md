@@ -71,5 +71,10 @@ changing the overall design. This results in an **explosion of complexity.**
 focuses on a small subset of the overall functionality. This subset is designed,
 implemented, and then evaluated. Problems with the original design are
 discovered and corrected, then a few more features are designed, implemented
+and evaluated. Each iteration exposes problems with the existing design, which
+are fixed before the next set of features is designed. By spreading out the design
+in this way, problems with the initial design can be fixed while the system is still
+small; later features benefit from experience gained during the implementation of
+earlier features, so they have fewer problems.
 
 - 
