@@ -66,6 +66,10 @@ major design changes at this point (for example, the designers may have moved
 on to other projects). Thus, developers try to patch around the problems without
 changing the overall design. This results in an **explosion of complexity.**
 
-- 
+- Because of these issues, most software development projects today use an
+**incremental approach such as agile development,** in which the initial design
+focuses on a small subset of the overall functionality. This subset is designed,
+implemented, and then evaluated. Problems with the original design are
+discovered and corrected, then a few more features are designed, implemented
 
 - 
