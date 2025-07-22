@@ -24,7 +24,7 @@ find that it doesn’t actually reduce complexity, then don’t feel obligated t
 using it (but, do let me know about your experience; I’d like to get feedback on
 what works and what doesn’t).
 
-## CHAPTER 1: Introduction (It’s All About Complexity)
+## Chapter 1: Introduction (It’s All About Complexity)
 
 - All programming requires
 is a creative mind and the ability to organize your thoughts. If you can visualize a
