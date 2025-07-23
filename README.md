@@ -237,6 +237,8 @@ and yet be confident that the guess is correct. Chapter 18 discusses techniques 
 making code more obvious.
 
 
-- **Causes of complexity**:
+- **Causes of complexity**: Complexity is
+caused by two things: dependencies and obscurity.
 
-here 
+- 
+
