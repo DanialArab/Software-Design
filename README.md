@@ -240,5 +240,5 @@ making code more obvious.
 - **Causes of complexity**: Complexity is
 caused by two things: dependencies and obscurity.
 
-- 
+-  
 
