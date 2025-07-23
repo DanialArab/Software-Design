@@ -274,5 +274,29 @@ name of the shared variable changes, compilation errors will occur in any code
 that still uses the old name. The new Web site replaced a nonobvious and
 difficult-to-manage dependency with a simpler and more obvious one.
 
-- 
+- **Obscurity**: Obscurity occurs when
+**important information is not obvious**. A simple example is a variable name that
+is so generic that it doesn’t carry much useful information (e.g., time). Or, the
+documentation for a variable might not specify its units, so the only way to find
+out is to scan code for places where the variable is used. **Obscurity is often
+associated with dependencies, where it is not obvious that a dependency exists.**
+For example, if a new error status is added to a system, it may be necessary to
+add an entry to a table holding string messages for each status, but the existence
+of the message table might not be obvious to a programmer looking at the status
+declaration. **Inconsistency is also a major contributor to obscurity**: if the same
+variable name is used for two different purposes, it won’t be obvious to developer
+which of these purposes a particular variable serves.
 
+- In many cases, **obscurity comes about because of inadequate documentation**;
+Chapter 13 deals with this topic. However, **obscurity is also a design issue. If a
+system has a clean and obvious design, then it will need less documentation.** The
+need for extensive documentation is often a red flag that the design isn’t quite
+right. **The best way to reduce obscurity is by simplifying the system design.**
+
+- Together, dependencies and obscurity account for the three manifestations of
+complexity described in Section 2.2. **Dependencies lead to change amplification
+and a high cognitive load.** And **obscurity creates unknown unknowns, and also
+contributes to cognitive load**. If we can find design techniques that minimize
+dependencies and obscurity, then we can reduce the complexity of software.
+
+- 
