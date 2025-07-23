@@ -240,5 +240,39 @@ making code more obvious.
 - **Causes of complexity**: Complexity is
 caused by two things: dependencies and obscurity.
 
--  
+- **Dependencies:** For the purposes of this book, a dependency exists when a given piece of
+code cannot be understood and modified in **isolation**; the code relates in some
+way to other code, and the other code must be considered and/or modified if the
+given code is changed. In the Web site example of Figure 2.1(a), the background
+color creates dependencies between all of the pages. All of the pages need to
+have the same background, so if the background is changed for one page, then it
+must be changed for all of them.
+
+- The **signature of a method** creates a dependency between the
+implementation of that method and the code that invokes it: if a new parameter is
+added to a method, all of the invocations of that method must be modified to
+specify that parameter.
+
+- **Dependencies are a fundamental part of software and can’t be completely
+eliminated. In fact, we intentionally introduce dependencies as part of the
+software design process**. Every time you **write a new class you create
+dependencies around the API for that class**. However, one of the goals of
+software design is to reduce the number of dependencies and to make the
+dependencies that **remain as simple and obvious as possible.**
+
+- Consider the Web site example. In the old Web site with the background
+specified separately on each page, all of the Web pages were dependent on each
+other. The new Web site fixed this problem by specifying the background color
+in a central place and providing an API that individual pages use to retrieve that
+color when they are rendered. The new Web site eliminated the dependency
+between the pages, but it created a new dependency around the API for retrieving
+the background color. Fortunately, the new dependency is more obvious: it is
+clear that each individual Web page depends on the bannerBg color, and a
+developer can easily find all the places where the variable is used by searching
+for its name. Furthermore, compilers help to manage API dependencies: if the
+name of the shared variable changes, compilation errors will occur in any code
+that still uses the old name. The new Web site replaced a nonobvious and
+difficult-to-manage dependency with a simpler and more obvious one.
+
+- 
 
