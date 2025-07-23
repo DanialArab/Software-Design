@@ -299,4 +299,19 @@ and a high cognitive load.** And **obscurity creates unknown unknowns, and also
 contributes to cognitive load**. If we can find design techniques that minimize
 dependencies and obscurity, then we can reduce the complexity of software.
 
+- **Complexity is incremental**: Complexity isn’t caused by a single catastrophic error; it accumulates in lots of
+small chunks. A single dependency or obscurity, by itself, is unlikely to affect
+significantly the maintainability of a software system. Complexity comes about
+because hundreds or thousands of small dependencies and obscurities build up
+over time. Eventually, there are so many of these small issues that every possible
+change to the system is affected by several of them.
+
+- The incremental nature of complexity makes it hard to control. It’s easy to
+convince yourself that a little bit of complexity introduced by your current
+change is no big deal. However, if every developer takes this approach for every
+change, complexity accumulates rapidly. Once complexity has accumulated, it is
+hard to eliminate, since fixing a single dependency or obscurity will not, by
+itself, make a big difference. **In order to slow the growth of complexity, you must
+adopt a “zero tolerance” philosophy,** as discussed in Chapter 3.
+
 - 
