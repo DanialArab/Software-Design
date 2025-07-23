@@ -314,4 +314,6 @@ hard to eliminate, since fixing a single dependency or obscurity will not, by
 itself, make a big difference. **In order to slow the growth of complexity, you must
 adopt a “zero tolerance” philosophy,** as discussed in Chapter 3.
 
-- 
+## Chapter 3: Working Code Isn’t Enough (Strategic vs. Tactical Programming)
+
+- HERE
