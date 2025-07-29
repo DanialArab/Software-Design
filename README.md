@@ -1,5 +1,15 @@
 # A Philosophy of Software Design
 
+1. [Preface](#1)
+2. [Chapter 1: Introduction (It’s All About Complexity)](#2)
+3. [Chapter 2 The Nature of Complexity](#3)
+4. [Chapter 3: Working Code Isn’t Enough (Strategic vs. Tactical Programming)](#4)
+
+
+
+
+   
+<a name="1"></a>
 ## Preface
 
 - The most fundamental problem in computer science is problem
@@ -24,6 +34,7 @@ find that it doesn’t actually reduce complexity, then don’t feel obligated t
 using it (but, do let me know about your experience; I’d like to get feedback on
 what works and what doesn’t).
 
+<a name="2"></a>
 ## Chapter 1: Introduction (It’s All About Complexity)
 
 - All programming requires
@@ -116,6 +127,7 @@ to methods can also be applied to functions in a language without object-oriente
 features, such as C. The design ideas also apply to modules other than classes,
 such as subsystems or network services.
 
+<a name="3"></a>
 ## Chapter 2 The Nature of Complexity
 
 - This book is about how to design software systems to minimize their complexity.
@@ -314,6 +326,7 @@ hard to eliminate, since fixing a single dependency or obscurity will not, by
 itself, make a big difference. **In order to slow the growth of complexity, you must
 adopt a “zero tolerance” philosophy,** as discussed in Chapter 3.
 
+<a name="4"></a>
 ## Chapter 3: Working Code Isn’t Enough (Strategic vs. Tactical Programming)
 
 - HERE
