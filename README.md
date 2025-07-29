@@ -4,7 +4,7 @@
 2. [Chapter 1: Introduction (It’s All About Complexity)](#2)
 3. [Chapter 2 The Nature of Complexity](#3)
 4. [Chapter 3: Working Code Isn’t Enough (Strategic vs. Tactical Programming)](#4)
-
+5. [Chapter 4: Modules Should Be Deep](#5)
 
 
 
@@ -442,3 +442,9 @@ tactical approach. The longer you wait to address design problems, the bigger
 they become; the solutions become more intimidating, which makes it easy to
 put them off even more. The most effective approach is one where every
 engineer makes continuous small investments in good design.
+
+
+<a name="5"></a>
+## Chapter 4: Modules Should Be Deep
+
+HERE
