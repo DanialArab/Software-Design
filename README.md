@@ -386,7 +386,7 @@ design of the system. These investments will slow you down a bit in the short
 term, but they will speed you up in the long term, as illustrated in Figure 3.1.
 
 
-![]()
+![](https://github.com/DanialArab/images/blob/main/A%20Philosophy%20of%20Software%20Design/Fig_3_1.png)
 
 - Some of the investments will be **proactive**. For example, it’s worth taking a
 little extra time to find a simple design for each new class; rather than
