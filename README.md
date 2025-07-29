@@ -358,4 +358,48 @@ complexities. Each of them probably seems like a reasonable compromise in
 order to finish the current task quickly. However, the complexities accumulate
 rapidly, especially if everyone is programming tactically.
 
-- 
+- Before long, some of the complexities will start causing problems, and you
+will begin to wish you hadn’t taken those early shortcuts. But, you will tell
+yourself that it’s more important to get the next feature working than to go back
+and refactor existing code. Refactoring may help out in the long run, but it will
+definitely slow down the current task. So, you look for quick patches to work
+around any problems you encounter. This just creates more complexity, which
+then requires more patches. Pretty soon the code is a mess, but by this point
+things are so bad that it would take months of work to clean it up. There’s no way
+your schedule can tolerate that kind of delay, and fixing one or two of the
+problems doesn’t seem like it will make much difference, so you just keep
+programming tactically.
+
+- **Strategic programming** The first step towards becoming a good software designer is to realize that
+working code isn’t enough. It’s not acceptable to introduce unnecessary
+complexities in order to finish your current task faster. The most important thing
+is the long-term structure of the system. Most of the code in any system is
+written by extending the existing code base, so your **most important job as a
+developer is to facilitate those future extensions.** Thus, you should not think of
+“working code” as your primary goal, though of course your code must work.
+Your primary goal must be to **produce a great design, which also happens to
+work. This is strategic programming.**
+
+- Strategic programming requires an investment mindset. Rather than taking
+the fastest path to finish your current project, you must invest time to improve the
+design of the system. These investments will slow you down a bit in the short
+term, but they will speed you up in the long term, as illustrated in Figure 3.1.
+
+
+![]()
+
+- Some of the investments will be **proactive**. For example, it’s worth taking a
+little extra time to find a simple design for each new class; rather than
+implementing the first idea that comes to mind, try a couple of alternative
+designs and pick the cleanest one. Try to imagine a few ways in which the system
+might need to be changed in the future and make sure that will be easy with your
+design. **Writing good documentation is another example of a proactive
+investment.**
+
+- Other investments will be **reactive.** No matter how much you invest up front,
+there will inevitably be mistakes in your design decisions. Over time, these
+mistakes will become obvious. When you discover a design problem, don’t just
+ignore it or patch around it; take a little extra time to fix it. If you program
+strategically, you will continually make small improvements to the system
+design. This is the opposite of tactical programming, where you are continually
+adding small bits of complexity that cause problems in the future.
