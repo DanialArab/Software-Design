@@ -208,7 +208,7 @@ information a developer must have to carry out the task successfully**. Figure
 the banner background color, so it appears to be easy to change. However, a few
 Web pages use a darker shade of the background color for emphasis, and that
 darker color is specified explicitly in the individual pages. If the background
-color changes, then the the emphasis color must change to match. Unfortunately,
+color changes, then the emphasis color must change to match. Unfortunately,
 developers are unlikely to realize this, so they may change the central bannerBg
 variable without updating the emphasis color. Even if a developer is aware of the
 problem, it won’t be obvious which pages use the emphasis color, so the
