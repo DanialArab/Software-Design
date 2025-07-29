@@ -329,4 +329,4 @@ adopt a “zero tolerance” philosophy,** as discussed in Chapter 3.
 <a name="4"></a>
 ## Chapter 3: Working Code Isn’t Enough (Strategic vs. Tactical Programming)
 
-- HERE
+- 
