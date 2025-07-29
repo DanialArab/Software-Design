@@ -329,4 +329,33 @@ adopt a “zero tolerance” philosophy,** as discussed in Chapter 3.
 <a name="4"></a>
 ## Chapter 3: Working Code Isn’t Enough (Strategic vs. Tactical Programming)
 
+- Many organizations
+encourage a tactical mindset, focused on getting features working as quickly as
+possible. However, if you want a good design, you must take a more strategic
+approach where you invest time to produce clean designs and fix problems. This
+chapter discusses why the strategic approach produces better designs and is
+actually cheaper than the tactical approach over the long run.
+
+- **Tactical programming** In the tactical approach, your main focus is to get something
+working, such as a new feature or a bug fix. At first glance this seems totally
+reasonable: what could be more important than writing code that works?
+However, tactical programming makes it nearly impossible to produce a good
+system design.
+
+- The problem with tactical programming is that it is short-sighted. If you’re
+programming tactically, you’re trying to finish a task as quickly as possible.
+Perhaps you have a hard deadline. As a result, planning for the future isn’t a
+priority. You don’t spend much time looking for the best design; you just want to
+get something working soon. You tell yourself that it’s OK to add a bit of
+complexity or introduce a small kludge or two, if that allows the current task to
+be completed more quickly.
+
+- This is how systems become complicated. As discussed in the previous
+chapter, complexity is incremental. It’s not one particular thing that makes a
+system complicated, but the accumulation of dozens or hundreds of small things.
+If you program tactically, each programming task will contribute a few of these
+complexities. Each of them probably seems like a reasonable compromise in
+order to finish the current task quickly. However, the complexities accumulate
+rapidly, especially if everyone is programming tactically.
+
 - 
