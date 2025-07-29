@@ -429,4 +429,16 @@ had taken the strategic approach. If you haven’t ever worked in a badly degrad
 code base, talk to someone who has; they will tell you that poor code quality
 slows development by at least 20%.
 
-- 
+- **Conclusions** Good design doesn’t come for free. It has to be something you invest in
+continually, so that small problems don’t accumulate into big ones. Fortunately,
+good design eventually pays for itself, and sooner than you might think.
+It’s crucial to be consistent in applying the strategic approach and to think of
+investment as something to do today, not tomorrow. When you get in a crunch it
+will be tempting to put off cleanups until after the crunch is over. However, this
+is a slippery slope; after the current crunch there will almost certainly be another
+one, and another after that. Once you start delaying design improvements, it’s
+easy for the delays to become permanent and for your culture to slip into the
+tactical approach. The longer you wait to address design problems, the bigger
+they become; the solutions become more intimidating, which makes it easy to
+put them off even more. The most effective approach is one where every
+engineer makes continuous small investments in good design.
